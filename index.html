@@ -5,72 +5,264 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MS-Services</title>
 </head>
 
 <body>
     <nav id="navbar">
-            <img src="images/logo1.jpg" alt="MS-Services">
+        <img src="images/logo1.jpg" alt="MS-Services">
     </nav>
-   
+
     <div class="home-container">
-        
+
         <div id="home">
+            <div id="home-form">
                 Get a 3D design consultation with some of India's finest interior designers
-        </div>
+            </div>
 
+            <form action="">
+                <div class="form-group">
+                    <label for="name"></label>
+                    <input type="text" name="name" id="name" placeholder="Enter Your Full Name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email"></label>
+                    <input type="email" name="name" id="email" placeholder="Enter Your E-mail Address">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone"></label>
+                    <input type="phone" name="name" id="phone" placeholder="Enter Your Phone Number">
+                </div>
+
+                <div class="form-group">
+                    <label for="pin-code"></label>
+                    <input type="phone" name="name" id="pin-code" placeholder="Enter Your Pin code">
+                </div>
+
+                <div class="bookbtn">BOOK A 3D DESIGN CONSULTATION</div>
+
+            </form>
+        </div>
     </div>
-        
-<div id="about">
-    <h1>What We Design</h1>
-    <div class="about-container">
-       
-        <div class ="about-image">
-            <img src="images/modular kitchen.jpg" alt="">
-            <h2>Modular Kitchens</h2>
-            <p>Expect a Sleek-made modular kitchen that blends function with elegance and <br> makes
-             cooking a dream</p>
-        </div>
 
-        <div  class ="about-image">
-            <img src="images/Furniture.jpg" alt="">
-            <h2>Furniture</h2>
-            <p>Get completely personalised furniture to complement the aesthetic of your space</p>
-        </div>
-        
-        <div  class ="about-image">
-            <img src="images/Furnishings andDecor Accessories.jpg" alt="">
-            <h2>Furnishings and Décor Accessories</h2>
-            <p>From the right furnishings and fabrics in diverse colours to a variety of décor <br> 
-                items that dress up your space—find what you’re looking for, to get your <br> 
-                interior design just right</p>
-        </div>
-        
-        <div class ="about-image"> 
-            <img src="images/Lighting.jpg" alt="">
-            <h2>Lighting</h2>
-            <p>Choose from a wide-range of lights— elaborate chandeliers, beautiful floor <br>
-             lamps or sophisticated task lighting—to work some style into your home décor</p>
-        </div>
+    <section id="about">
+        <h1>What We Design</h1>
+        <div class="about-container">
 
-        <div  class ="about-image">
-            <img src="images/Painting-and-wallpaper.jpg" alt="">
-            <h2>Painting-and-wallpaper</h2>
-            <p>Get Signature Walls that express your true personal style. From interesting <br>
-             shades for an accent wall to stunning wallpapers for your bedroom—we make <br>
-             sure you find everything you need</p>
-        </div>
+            <div class="about-image">
+                <img src="images/modular kitchen.jpg" alt="Modular kitchen">
+                <h2>Modular Kitchens</h2>
+                <p>Expect a Sleek-made modular kitchen that blends function with elegance
+                    <!-- and <br> makes cooking a dream</p> -->
+            </div>
 
-        <div class ="about-image">
-            <img src="images/Wardrobe.jpg" alt="">
-            <h2>Modular Wardrobe</h2>
-            <p>Find the right size, the perfect shape and a chic design for a signature wardrobe.</p>
-        </div>
+            <div class="about-image">
+                <img src="images/Furniture.jpg" alt="Furniture">
+                <h2>Furniture</h2>
+                <p>Get completely personalised furniture to complement the aesthetic of your space</p>
+            </div>
 
+            <div class="about-image">
+                <img src="images/Furnishings andDecor Accessories.jpg" alt="Furnishings and Decor Accessories">
+                <h2>Furnishings and Décor Accessories</h2>
+                <p>From the right furnishings and fabrics in diverse colours to a variety of décor <br>
+                    items that dress up your space.
+                    <!-- —find what you’re looking for, to get your <br>interior design just right</p> -->
+            </div>
+
+            <div class="about-image">
+                <img src="images/Lighting.jpg" alt="Lighting">
+                <h2>Lighting</h2>
+                <p>Choose from a wide-range of lights— elaborate chandeliers, beautiful floor <br>
+                    lamps or sophisticated task lighting—to work some style into your home décor</p>
+            </div>
+
+            <div class="about-image">
+                <img src="images/Painting-and-wallpaper.jpg" alt="Painting-and-wallpaper">
+                <h2>Painting-and-wallpaper</h2>
+                <p>Get Signature Walls that express your true personal style.
+                    <!-- From interesting <br>shades for an accent wall to stunning wallpapers for your bedroom—we 
+            make <br>sure you find everything you need</p> -->
+            </div>
+
+            <div class="about-image">
+                <img src="images/Wardrobe.jpg" alt="Modular Wardrobe">
+                <h2>Modular Wardrobe</h2>
+                <p>Find the right size, the perfect shape and a chic design for a signature wardrobe.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="covid">
+        <h1>COVID-19 Safety Standards</h1>
+        <ul class="covid-container">
+
+            <li class="covid-image">
+                <img src="covid safety images/social-distancing c1.png" alt="social-distancing">
+                <p>STRICT SOCIAL DISTANCING</p>
+            </li>
+
+            <li class="covid-image">
+                <img src="covid safety images/arogya-setu c2.png" alt="arogya-setu">
+                <p>AROGYA SETU FOR DIGITAL <br> MONITORING</p>
+            </li>
+
+            <li class="covid-image">
+                <img src="covid safety images/mask c3.png" alt="mask">
+                <p>MASKS FOR EMPLOYEES</p>
+            </li>
+
+            <li class="covid-image">
+                <img src="covid safety images/safety-protocal c4.png" alt="safety-protocal">
+                <p>STORAGE SAFETY <br> PROTOCOL</p>
+            </li>
+
+            <li class="covid-image">
+                <img src="covid safety images/temprature-check c5.png" alt="temprature-check">
+                <p>TEMPRATURE SCANNING</p>
+            </li>
+
+            <li class="covid-image">
+                <img src="covid safety images/less-force c6.png" alt="less-force">
+                <p>REDUCED MANPOWER</p>
+            </li>
+
+            <li class="covid-image">
+                <img src="covid safety images/sanitize c7.png" alt="sanitize">
+                <p>SANITIZATION OF YOUR <br> HOUSE</p>
+            </li>
+
+            <li class="covid-image">
+                <img src="covid safety images/awareness c8.png" alt="awareness">
+                <p>AWARENESS THROUGH <br> TRAININGS</p>
+            </li>
+
+            <li class="covid-image">
+                <img src="covid safety images/safety-superviser c9.png" alt="safety-superviser">
+                <p>SAFETY SUPERVISORS</p>
+            </li>
+        </ul>
+    </section>
+
+    <section id="advantage">
+        <h1>The Beautiful Homes Service Advantage</h1>
+        <div class="advantage-container">
+
+            <div class="advantage-image">
+                <img src="SA images/sa1.jpg" alt="Interior Design Experts">
+                <h3>Interior Design Experts</h3>
+                <p>The most important decision you will make when it <br>
+                    comes to interior decoration is finding skilled and <br>
+                    reliable professionals. At Beautiful Homes Service, <br>
+                    we ensure your house design is in the hands of <br>
+                    our panel of experienced interior designers.</p>
+            </div>
+
+            <div class="advantage-image">
+                <img src="SA images/sa2.jpg" alt="Personalised Service">
+                <h3>Personalised Service</h3>
+                <p>Every home is a unique expression of its <br>
+                    homeowners. We ensure your house design is in <br>
+                    keeping with your distinct tastes. Everything, from <br>
+                    creating furniture to choosing furnishings and <br>
+                    lighting, is meant to reflect your sense of design.</p>
+            </div>
+
+            <div class="advantage-image">
+                <img src="SA images/sa3.jpg" alt="State-of-the-Art 3D Visualisation">
+                <h3>State-of-the-Art 3D Visualisation</h3>
+                <p>Second-guessing your décor decisions is not <br>
+                    unusual, that’s something we’ve accounted for, <br>
+                    with our 3D visualiser. It's an ideal way to see how <br>
+                    your space can turn out and allows you to make <br>
+                    any changes to the design before work begins.</p>
+            </div>
+
+            <div class="advantage-image">
+                <img src="SA images/sa4.jpg" alt="End-to-End Service">
+                <h3>End-to-End Service</h3>
+                <p>While we work towards giving you your dream <br>
+                    home interior design, all you need to do is relax <br>
+                    while everything is taken care of. From concept to <br>
+                    creation and planning to execution, our team has <br>
+                    got you covered</p>
+            </div>
+
+            <div class="advantage-image">
+                <img src="SA images/sa5.jpg" alt="Project Management">
+                <h3>Project Management</h3>
+                <p>A dedicated Project Manager is in charge of <br>
+                    managing your home renovation process. The <br>
+                    project manager oversees the timely completion of <br>
+                    your interior design and makes sure the workflow <br>
+                    is seamless. lets try it once.</p>
+            </div>
+
+            <div class="advantage-image">
+                <img src="SA images/sa6.jpg" alt="Signature Walls">
+                <h3>Signature Walls</h3>
+                <p>With Beautiful Homes Service, you have access to <br>
+                    top-of-the-line Asian Paints products to create <br>
+                    beautiful walls. This includes elegant Nilaya wall <br>
+                    coverings & textured finishes designed to elevate <br>
+                    your home interiors.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="story">
+        <div id="story-head">Customer Stories</div>
+        <div id="story-btn">VIEW MORE</div>
+    </section>
+
+    <div class="story-container2">
+        <div class="story-container">
+            <div class="story-image">
+                <img src="cs images/cs1.jpg" alt="A home in Vadodara is renovated remotely from Dubai">
+                <h3>A home in Vadodara is renovated remotely</h3>
+                <p>"When it came to quality and perfection, Asian Paints truly <br>
+                    lived up to its name, and I was especially impressed with <br>
+                    the high standard of safety and security we felt throughout <br>
+                    the entire project."<br>
+                    - Akash Vyas</p>
+            </div>
+
+            <div class="story-image">
+                <img src="cs images/cs2.jpg" alt="A luxurious family Space">
+                <h3>A luxurious family Space</h3>
+                <p>“When we look at the product and the timelines, I think <br>
+                    everything turned out to be perfect!” <br>
+                    - Varun Sood</p>
+            </div>
+
+            <div class="story-image">
+                <img src="cs images/cs3.jpg" alt="A calm and senere Ahmedabad home">
+                <h3>A calm and senere Ahmedabad home</h3>
+                <p>“The attention to detail and commitment to the project <br>
+                    ensured not only that the entire process happened <br>
+                    seamlessly, but also with a spectacular end result.” <br>
+                    - Shweta Shah</p>
+            </div>
+        </div>
     </div>
-</div>
 
+    <div class="emi">
+        <img src="images/last image.jpg" alt="">
+        <div class="design">DESIGN SERVICES</div>
+        <h1>Take a step towards your dream home <br>
+            with exciting EMI Offers!</h1>
+        <div class="emibtn">GET STARTED</div>
+    </div>
+
+    <footer>
+        <div class="f1">
+            Copyright &copy; www.ms-services.com | All Rights Reserved!
+        </div>
+    </footer>
 </body>
 
 </html>

@@ -19,31 +19,66 @@ nav {
 }
 
 #home{
-    /* border: 2px solid yellow; */
-    background-color: yellow;
-    color: black;
-    display: inline-block;
-    position: relative;
     border-radius: 20px;
-    padding: 30px;
-    top: 100px;
-    left: 80px;
-    height: 200px;
+    width: 420px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 100px;
+    top: 110px;
+}
 
+#home-form{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 25px;
+    margin-top: 15px;
+    position: relative;
+    left: 15px;
+}
+
+input{
+    font-family: 'Roboto Mono', monospace;
+    padding: 12px;
+    position: relative;
+    left: 15px;
+    border-radius: 10px;
+    width: 300px;
+    height: 20px;
+    margin: 5px;
+}
+
+.bookbtn{
+    border: 2px solid white;
+    color: white;
+    border-radius: 5px;
+    background-color: red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    cursor: pointer;
+    width: 280px;
+    height: 30px;
+    left: 100px;
+    top: 10px;
+}
+
+.bookbtn:active {
+    background-color: white;
+    color: red;
+    box-shadow: 0 5px;
+    transform: translate(2px);
 }
 
 .home-container{
     height: 100vh;
     width: 100vw;
-    border: 5px solid red;
-    background: url('images/bg1.jpg');
-}
-
-#about h1{
-    font-size: 2rem;
-    display: flex;
-    padding: 13px;
-    justify-content: center;
+    /* border: 5px solid red; */
+    background: url('images/bg1.jpg') no-repeat center center/cover;
 }
 
 #about{
@@ -51,8 +86,17 @@ nav {
     height: auto;
 }
 
+#about h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    padding: 13px;
+    position: relative;
+    left: 70px;
+}
+
 .about-container{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     height: auto;
     width: 100vw;
     display: flex;
@@ -69,4 +113,246 @@ nav {
     justify-content: center;
     overflow: hidden;
     padding: 10px;
+}
+
+.about-image h2{
+    margin-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.about-image p{
+    margin-bottom: 30px;
+}
+
+#covid{
+    background-color: rgb(244, 244, 244);
+    width: 100vw;
+    height: auto;
+}
+
+#covid ul{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+/* list-style: none; */
+}
+
+#covid ul li{
+    width: 20%;
+    padding: 10px 0 30px;
+    list-style: none;
+}
+
+#covid h1{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    padding-top: 70px;
+    justify-content: center;
+}
+
+.covid-image{
+    text-align: center;
+}
+
+.covid-image img{
+    height: 100px;
+    width: 100px;
+}
+
+.covid-image p{
+    justify-content: center;
+    align-items: center;
+}
+
+#advantage{
+    width: 100vw;
+    height: auto;
+    /* border: 2px solid red; */
+}
+
+#advantage h1{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    display: flex;
+    padding: 13px;
+    position: relative;
+    left: 70px;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.advantage-container{
+    /* border: 2px solid red; */
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.advantage-image{
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.advantage-image img{
+    border-radius: 10px;
+}
+
+.advantage-image h3{
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 15px;
+}
+
+.advantage-image p{
+    margin-bottom: 30px;
+}
+
+#story{
+    /* border: 2px solid blue; */
+    width: 100vw;
+    height: 20vh;
+    position: relative;
+    background-color: rgb(244, 244, 244);
+    align-items: center;
+    top: 0px;
+    left: 0px;
+}
+
+#story-head{
+    font-size: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+    padding: 10px;
+    margin-top: 15px;
+    left: 70px;
+    top: 25px;
+    display: inline-block;
+    position: absolute;
+}
+
+#story-btn{
+    border: 2px solid red;
+    padding: 10px;
+    color: red;
+    font-style: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 15px;
+    right: 90px;
+    top: 25px;
+    display: inline-block;
+    position: absolute;
+}
+
+#story-btn:hover{
+    background-color: white;
+}
+
+.story-container{
+    /* border: 2px solid green; */
+    /* color: rgb(244, 244, 244); */
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.story-container2{
+    width: 100vw;
+    height: auto;
+    background-color: rgb(244, 244, 244);
+}
+.story-image img{
+    height: 230px;
+    width: 400px;
+    border-radius: 10px;
+}
+
+.story-image h3{
+    color: black;
+    font-family: 'Ubuntu', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.story-image p{
+color: black;
+}
+
+.emi{
+    width: 85vw;
+    height: 50vh;
+    border-radius: 10px;
+    border: 2px solid purple;
+    position: relative;
+    margin: 90px;
+}
+
+.emi img{
+    width: 85vw;
+    height: 50vh;
+    object-fit: cover;
+    opacity: 1;
+    filter: brightness(0.5);
+}
+
+.design{
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    position: absolute;
+    top: 90px;
+    left: 100px;
+}
+
+.emi h1{
+    color: white;
+    font-size: 3rem;
+    display: inline-block;
+    position:absolute;
+    left: 95px;
+    top: 110px;
+}
+
+.emibtn {
+    position: absolute;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 100px;
+    top: 240px;
+    height: 40px;
+    width: 200px;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+.emibtn:hover{
+    filter: brightness(0.8);
+    color: black;
+}
+
+.emibtn:active {
+    color: white;
+    box-shadow: 0 5px;
+    transform: translate(2px);
+}
+.f1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 8vh;
+    background-color: black;
+    color: white;
 }
